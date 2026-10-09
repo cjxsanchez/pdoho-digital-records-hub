@@ -1,0 +1,21 @@
+# 1. Composer Dependencies
+/vendor/
+
+# 2. User Uploads & System Backups
+/public/uploads/*
+!/public/uploads/.gitkeep
+
+/public/backups/*
+!/public/backups/.gitkeep
+
+# 3. Temporary / Debugging Scripts
+/public/generate_pass.php
+/public/check_permissions.php
+
+# 4. Database Credentials
+
+
+# 5. OS and Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
